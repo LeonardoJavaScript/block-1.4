@@ -1,0 +1,130 @@
+@font-face {
+    font-family: TT Lakes;
+    src: url('fonts/TTLakes-Light.woff');
+}
+@font-face {
+    font-family: B Lakes;
+    src: url('fonts/TTLakesCondensed-ExtraBold.ttf');
+}
+@font-face {
+    font-family: Bl Lakes;
+    src: url('fonts/TTLakes-Medium.ttf');
+}
+.header__box{
+    display: flex;
+    justify-content: flex-start;
+    background: #FFFFFF;
+    block-size: border-box;
+    margin-left: 24px;
+}
+* {
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 320px;
+    position:absolute;
+    top:0;
+    float:right;
+    box-shadow: -2px 0 4px rgba(69, 79, 126, 0.02), 16px 0 52px rgba(14, 24, 80, 0.2);
+}
+.header__button-menu{
+    cursor: pointer;
+}
+.header__logo{
+    margin:6px 80px 14px 16px;
+}
+.header__button-search{
+     cursor: pointer;
+}
+.aside__container{
+    display: flex;
+    justify-content: flex-start;
+    background: #FFFFFF;
+    block-size: border-box;
+
+}
+.aside__list{
+    margin-left: 16px;
+}
+.aside__title{
+    padding: 1em;
+    font-size: 16px;
+    display: flex;
+}
+.aside__title:hover:before{
+    content: "";
+    background-image: url("image/highlight.png");
+    height: 32px;
+    width: 4px;
+    position: fixed;
+
+
+}
+a.link__title:active,
+a.link__title:hover,
+a.link__title {
+    text-decoration: none;
+    color: #666;
+}
+.footer__container{
+    display: flex;
+    flex-direction: column ;
+    background: #FFFFFF;
+    margin-top: 270px;
+}
+.button{
+    background: #FF3E79;
+    display: inline-block;
+    margin: 1em 0.5em;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.footer__button{
+    cursor: pointer;
+    margin-left: 24px;
+}
+.footer__button-phone{
+    cursor: pointer;
+
+}
+.footer__button-message{
+    cursor: pointer;
+}
+.footer__button-group{
+    cursor: pointer;
+}
+.footer__text{
+    margin-left: 24px;
+}
+.footer__text-email{
+    cursor: pointer;
+    font-size: 16px;
+}
+.footer__text-number{
+    cursor: pointer;
+    font-size: 24px;
+    font-family: "B Lakes";
+    color: #1B1C21;
+}
+.footer__box{
+    display: flex;
+    background: #FFFFFF;
+    margin-left: 24px;
+}
+.footer__button-ru{
+    border: none;
+    background: #FFFFFF;
+}
+.footer__button-en{
+    border: none;
+    background:#FFFFFF;
+}
+.footer__button-ch{
+    border: none;
+    background: #FFFFFF;
+}
