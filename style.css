@@ -39,7 +39,7 @@ body{
 .header__button-search{
      cursor: pointer;
 }
-.aside__container{
+.left-menu__container{
     display: flex;
     justify-content: flex-start;
     background: #FFFFFF;
@@ -48,28 +48,34 @@ body{
     color: #1B1C21;
 
 }
-.aside__list{
-    margin-left: 24px;
-}
-.aside__title{
-    padding: 1em 0 1em 0 ;
+.left-menu__title{
+    padding: 0 0 0 1.5em ;
     font-size: 16px;
     display: flex;
-}
-.aside__title:hover:before{
-    content: "";
-    background-image: url("image/highlight.png");
+    position: relative;
+    align-items: center;
     height: 32px;
+    margin: 2em 0 2em 0;
+
+}
+.left-menu__title:hover:before{
+    content:"";
+    background-color: #41F6D7;
+    border-radius: 0 5px 5px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 4px;
-    position: fixed;
-
-
+    height: 100%;
 }
 a.link__title:active,
 a.link__title:hover,
 a.link__title {
     text-decoration: none;
     color: #1B1C21;
+}
+a.link__title:focus{
+    color: #7E7E82;
 }
 .footer__container{
     display: flex;
