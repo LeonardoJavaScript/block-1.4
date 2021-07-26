@@ -123,8 +123,10 @@ a.link__title {
 .footer__button-en{
     border: none;
     background:#FFFFFF;
+    margin-left: 7px;
 }
 .footer__button-ch{
     border: none;
     background: #FFFFFF;
+    margin-left: 7px;
 }
